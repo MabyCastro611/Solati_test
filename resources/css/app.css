@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    background-color: #303d2e;
+    color: #d6d7a2;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilos para la tabla de entrada de productos */
+#formulario {
+    width: 45%;
+}
+
+#formulario table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#formulario th, #formulario td {
+    padding: 10px;
+    border: 1px solid #131d15;
+    background-color: #58664e;
+    color: #d6d7a2;
+}
+
+/* Estilos para la tabla de productos agregados */
+#productos-agregados {
+    width: 45%;
+}
+
+#productos-agregados table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#productos-agregados th, #productos-agregados td {
+    padding: 10px;
+    border: 1px solid #131d15;
+    background-color: #58664e;
+    color: #d6d7a2;
+}
